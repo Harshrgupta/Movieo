@@ -64,7 +64,7 @@ class MovieForm extends Form {
     catch(ex)
     {
       if(ex.response)
-      toast(ex.response);
+      toast.error("Unauthorized User");
     }
 
   };
